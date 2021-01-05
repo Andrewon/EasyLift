@@ -4,6 +4,8 @@ import { createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView,Image,TouchableOpacity, Button, Alert, FlatList, TouchableWithoutFeedback } from 'react-native';
 
+import DATA from "TestData";
+
 const Stack = createStackNavigator();
 
 export default function App() /**the 'export' is equivalent to run**/ {
